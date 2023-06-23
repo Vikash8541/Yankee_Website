@@ -1,0 +1,15 @@
+this is a order depended javascript so use it as follows:-
+
+1> first link the waypoint js.
+
+2> then link the counterup js.
+
+3> add this data element to desired area.
+
+and to initiate the counting use the following code in your custom js.
+
+// jQuery counterUp
+  $('[data-toggle="counter-up"]').counterUp({
+    delay: 10,
+    time: 1000
+  });
